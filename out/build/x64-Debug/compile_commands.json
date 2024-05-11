@@ -1,0 +1,782 @@
+[
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_add.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_add.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_add.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_add.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_add_dir.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_add_dir.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_add_dir.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_add_dir.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_add_entry.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_add_entry.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_add_entry.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_add_entry.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_algorithm_deflate.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_algorithm_deflate.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_algorithm_deflate.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_algorithm_deflate.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_buffer.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_buffer.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_buffer.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_buffer.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_close.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_close.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_close.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_close.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_delete.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_delete.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_delete.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_delete.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_dir_add.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_dir_add.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_dir_add.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_dir_add.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_dirent.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_dirent.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_dirent.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_dirent.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_discard.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_discard.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_discard.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_discard.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_entry.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_entry.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_entry.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_entry.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_error.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_error.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_error_clear.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_clear.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_clear.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_error_clear.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_error_get.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_get.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_get.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_error_get.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_error_get_sys_type.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_get_sys_type.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_get_sys_type.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_error_get_sys_type.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_error_strerror.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_strerror.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_strerror.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_error_strerror.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_error_to_str.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_to_str.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_error_to_str.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_error_to_str.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_extra_field.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_extra_field.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_extra_field.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_extra_field.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_extra_field_api.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_extra_field_api.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_extra_field_api.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_extra_field_api.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fclose.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fclose.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fclose.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fclose.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fdopen.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fdopen.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fdopen.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fdopen.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_add.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_add.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_add.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_add.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_error_clear.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_error_clear.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_error_clear.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_error_clear.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_error_get.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_error_get.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_error_get.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_error_get.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_get_comment.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_get_comment.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_get_comment.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_get_comment.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_get_external_attributes.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_get_external_attributes.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_get_external_attributes.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_get_external_attributes.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_get_offset.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_get_offset.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_get_offset.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_get_offset.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_rename.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_rename.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_rename.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_rename.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_replace.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_replace.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_replace.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_replace.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_set_comment.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_comment.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_comment.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_set_comment.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_set_encryption.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_encryption.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_encryption.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_set_encryption.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_set_external_attributes.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_external_attributes.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_external_attributes.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_set_external_attributes.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_set_mtime.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_mtime.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_set_mtime.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_set_mtime.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_file_strerror.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_strerror.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_file_strerror.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_file_strerror.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fopen.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fopen.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fopen_encrypted.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen_encrypted.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen_encrypted.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fopen_encrypted.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fopen_index.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen_index.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen_index.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fopen_index.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fopen_index_encrypted.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen_index_encrypted.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fopen_index_encrypted.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fopen_index_encrypted.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fread.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fread.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fread.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fread.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_fseek.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fseek.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_fseek.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_fseek.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_ftell.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_ftell.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_ftell.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_ftell.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_get_archive_comment.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_archive_comment.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_archive_comment.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_get_archive_comment.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_get_archive_flag.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_archive_flag.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_archive_flag.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_get_archive_flag.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_get_encryption_implementation.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_encryption_implementation.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_encryption_implementation.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_get_encryption_implementation.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_get_file_comment.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_file_comment.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_file_comment.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_get_file_comment.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_get_name.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_name.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_name.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_get_name.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_get_num_entries.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_num_entries.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_num_entries.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_get_num_entries.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_get_num_files.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_num_files.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_get_num_files.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_get_num_files.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_hash.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_hash.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_hash.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_hash.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_io_util.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_io_util.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_io_util.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_io_util.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_libzip_version.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_libzip_version.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_libzip_version.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_libzip_version.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_memdup.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_memdup.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_memdup.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_memdup.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_name_locate.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_name_locate.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_name_locate.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_name_locate.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_new.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_new.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_new.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_new.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_open.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_open.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_open.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_open.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_pkware.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_pkware.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_pkware.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_pkware.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_progress.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_progress.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_progress.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_progress.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_rename.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_rename.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_rename.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_rename.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_replace.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_replace.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_replace.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_replace.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_set_archive_comment.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_archive_comment.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_archive_comment.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_set_archive_comment.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_set_archive_flag.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_archive_flag.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_archive_flag.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_set_archive_flag.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_set_default_password.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_default_password.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_default_password.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_set_default_password.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_set_file_comment.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_file_comment.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_file_comment.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_set_file_comment.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_set_file_compression.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_file_compression.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_file_compression.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_set_file_compression.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_set_name.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_name.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_set_name.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_set_name.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_accept_empty.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_accept_empty.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_accept_empty.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_accept_empty.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_begin_write.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_begin_write.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_begin_write.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_begin_write.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_begin_write_cloning.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_begin_write_cloning.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_begin_write_cloning.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_begin_write_cloning.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_buffer.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_buffer.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_buffer.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_buffer.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_call.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_call.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_call.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_call.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_close.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_close.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_close.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_close.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_commit_write.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_commit_write.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_commit_write.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_commit_write.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_compress.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_compress.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_compress.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_compress.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_crc.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_crc.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_crc.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_crc.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_error.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_error.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_error.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_error.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_file_common.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_common.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_common.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_file_common.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_file_stdio.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_stdio.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_stdio.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_file_stdio.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_free.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_free.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_free.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_free.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_function.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_function.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_function.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_function.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_get_file_attributes.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_get_file_attributes.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_get_file_attributes.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_get_file_attributes.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_is_deleted.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_is_deleted.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_is_deleted.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_is_deleted.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_layered.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_layered.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_layered.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_layered.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_open.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_open.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_open.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_open.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_pass_to_lower_layer.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_pass_to_lower_layer.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_pass_to_lower_layer.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_pass_to_lower_layer.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_pkware_decode.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_pkware_decode.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_pkware_decode.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_pkware_decode.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_pkware_encode.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_pkware_encode.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_pkware_encode.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_pkware_encode.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_read.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_read.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_read.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_read.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_remove.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_remove.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_remove.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_remove.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_rollback_write.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_rollback_write.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_rollback_write.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_rollback_write.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_seek.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_seek.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_seek.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_seek.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_seek_write.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_seek_write.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_seek_write.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_seek_write.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_stat.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_stat.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_stat.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_stat.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_supports.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_supports.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_supports.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_supports.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_tell.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_tell.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_tell.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_tell.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_tell_write.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_tell_write.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_tell_write.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_tell_write.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_window.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_window.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_window.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_window.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_write.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_write.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_write.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_write.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_zip.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_zip.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_zip.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_zip.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_zip_new.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_zip_new.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_zip_new.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_zip_new.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_stat.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_stat.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_stat.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_stat.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_stat_index.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_stat_index.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_stat_index.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_stat_index.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_stat_init.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_stat_init.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_stat_init.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_stat_init.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_strerror.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_strerror.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_strerror.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_strerror.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_string.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_string.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_string.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_string.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_unchange.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_unchange.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_unchange_all.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange_all.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange_all.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_unchange_all.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_unchange_archive.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange_archive.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange_archive.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_unchange_archive.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_unchange_data.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange_data.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_unchange_data.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_unchange_data.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_utf-8.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_utf-8.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_utf-8.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_utf-8.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_err_str.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug\\lib\\zip_err_str.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug\\lib\\zip_err_str.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_err_str.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_file_win32.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_file_win32.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_file_win32_named.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_named.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_named.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_file_win32_named.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_file_win32_utf16.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_utf16.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_utf16.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_file_win32_utf16.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_file_win32_utf8.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_utf8.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_utf8.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_file_win32_utf8.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_file_win32_ansi.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_ansi.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_file_win32_ansi.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_file_win32_ansi.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_random_win32.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_random_win32.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_random_win32.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_random_win32.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_crypto_win.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_crypto_win.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_crypto_win.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_crypto_win.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_winzip_aes.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_winzip_aes.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_winzip_aes.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_winzip_aes.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_winzip_aes_decode.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_winzip_aes_decode.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_winzip_aes_decode.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_winzip_aes_decode.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -Dzip_EXPORTS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Folib\\CMakeFiles\\zip.dir\\zip_source_winzip_aes_encode.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_winzip_aes_encode.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib\\zip_source_winzip_aes_encode.c",
+  "output": "lib\\CMakeFiles\\zip.dir\\zip_source_winzip_aes_encode.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\zipcmp.dir\\zipcmp.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\zipcmp.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\zipcmp.c",
+  "output": "src\\CMakeFiles\\zipcmp.dir\\zipcmp.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\zipcmp.dir\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\getopt.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\getopt.c",
+  "output": "src\\CMakeFiles\\zipcmp.dir\\getopt.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug -external:I\"C:\\Program Files (x86)\\zlib\\include\" -external:W0 /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\zipcmp.dir\\diff_output.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\diff_output.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\diff_output.c",
+  "output": "src\\CMakeFiles\\zipcmp.dir\\diff_output.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\zipmerge.dir\\zipmerge.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\zipmerge.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\zipmerge.c",
+  "output": "src\\CMakeFiles\\zipmerge.dir\\zipmerge.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\zipmerge.dir\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\getopt.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\getopt.c",
+  "output": "src\\CMakeFiles\\zipmerge.dir\\getopt.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\ziptool.dir\\ziptool.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\ziptool.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\ziptool.c",
+  "output": "src\\CMakeFiles\\ziptool.dir\\ziptool.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Fosrc\\CMakeFiles\\ziptool.dir\\getopt.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\getopt.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\src\\getopt.c",
+  "output": "src\\CMakeFiles\\ziptool.dir\\getopt.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Foexamples\\CMakeFiles\\add-compressed-data.dir\\add-compressed-data.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\add-compressed-data.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\add-compressed-data.c",
+  "output": "examples\\CMakeFiles\\add-compressed-data.dir\\add-compressed-data.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Foexamples\\CMakeFiles\\autoclose-archive.dir\\autoclose-archive.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\autoclose-archive.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\autoclose-archive.c",
+  "output": "examples\\CMakeFiles\\autoclose-archive.dir\\autoclose-archive.c.obj"
+},
+{
+  "directory": "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_CRT_NONSTDC_NO_DEPRECATE -D_CRT_SECURE_NO_WARNINGS -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\BEFORE -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\lib -ID:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Debug /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /Foexamples\\CMakeFiles\\in-memory.dir\\in-memory.c.obj /FdTARGET_COMPILE_PDB /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\in-memory.c",
+  "file": "D:\\C\\libzip-1.10.1\\libzip-1.10.1\\examples\\in-memory.c",
+  "output": "examples\\CMakeFiles\\in-memory.dir\\in-memory.c.obj"
+}
+]

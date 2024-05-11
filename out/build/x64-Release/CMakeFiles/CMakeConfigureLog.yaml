@@ -1,0 +1,1867 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32535 版
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.36.32535.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/3.26.0-msvc3/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1153 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:221 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        注意: 包含文件:  D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "注意: 包含文件:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2f2iev"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2f2iev"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2f2iev
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6779c && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6779c.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_6779c.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6779c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6779c.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_6779c.exe /implib:cmTC_6779c.lib /pdb:cmTC_6779c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:41 (check_include_files)"
+    checks:
+      - "Looking for include file CommonCrypto/CommonCrypto.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-70pmvl"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-70pmvl"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "COMMONCRYPTO_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-70pmvl
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_5170f && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5170f.dir\\COMMONCRYPTO_FOUND.c.obj /FdCMakeFiles\\cmTC_5170f.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-70pmvl\\COMMONCRYPTO_FOUND.c
+        FAILED: CMakeFiles/cmTC_5170f.dir/COMMONCRYPTO_FOUND.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5170f.dir\\COMMONCRYPTO_FOUND.c.obj /FdCMakeFiles\\cmTC_5170f.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-70pmvl\\COMMONCRYPTO_FOUND.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-70pmvl\\COMMONCRYPTO_FOUND.c(2): fatal error C1083: 无法打开包括文件: “CommonCrypto/CommonCrypto.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:95 (check_function_exists)"
+    checks:
+      - "Looking for _close"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6mffvp"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6mffvp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__CLOSE"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6mffvp
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e17e9 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_close /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e17e9.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_e17e9.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-6mffvp\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e17e9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e17e9.dir\\CheckFunctionExists.c.obj  /out:cmTC_e17e9.exe /implib:cmTC_e17e9.lib /pdb:cmTC_e17e9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:96 (check_function_exists)"
+    checks:
+      - "Looking for _dup"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-fx18z8"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-fx18z8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__DUP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-fx18z8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_2a019 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_dup /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2a019.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_2a019.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-fx18z8\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2a019.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2a019.dir\\CheckFunctionExists.c.obj  /out:cmTC_2a019.exe /implib:cmTC_2a019.lib /pdb:cmTC_2a019.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:97 (check_function_exists)"
+    checks:
+      - "Looking for _fdopen"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-4qqc59"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-4qqc59"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__FDOPEN"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-4qqc59
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_3ab2e && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_fdopen /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3ab2e.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_3ab2e.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4qqc59\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3ab2e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3ab2e.dir\\CheckFunctionExists.c.obj  /out:cmTC_3ab2e.exe /implib:cmTC_3ab2e.lib /pdb:cmTC_3ab2e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:98 (check_function_exists)"
+    checks:
+      - "Looking for _fileno"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v2sdt6"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v2sdt6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__FILENO"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v2sdt6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_459ef && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_fileno /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_459ef.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_459ef.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-v2sdt6\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_459ef.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_459ef.dir\\CheckFunctionExists.c.obj  /out:cmTC_459ef.exe /implib:cmTC_459ef.lib /pdb:cmTC_459ef.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:99 (check_function_exists)"
+    checks:
+      - "Looking for _setmode"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v4fv7s"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v4fv7s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__SETMODE"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v4fv7s
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_7f576 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_setmode /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7f576.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_7f576.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-v4fv7s\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7f576.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7f576.dir\\CheckFunctionExists.c.obj  /out:cmTC_7f576.exe /implib:cmTC_7f576.lib /pdb:cmTC_7f576.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:100 (check_symbol_exists)"
+    checks:
+      - "Looking for _snprintf"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-17yscm"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-17yscm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-17yscm
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_713f2 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_713f2.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_713f2.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-17yscm\\CheckSymbolExists.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-17yscm\\CheckSymbolExists.c(8): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_713f2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_713f2.dir\\CheckSymbolExists.c.obj  /out:cmTC_713f2.exe /implib:cmTC_713f2.lib /pdb:cmTC_713f2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:101 (check_symbol_exists)"
+    checks:
+      - "Looking for _snprintf_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-1imios"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-1imios"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__SNPRINTF_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-1imios
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_5f229 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5f229.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_5f229.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-1imios\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5f229.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5f229.dir\\CheckSymbolExists.c.obj  /out:cmTC_5f229.exe /implib:cmTC_5f229.lib /pdb:cmTC_5f229.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:102 (check_symbol_exists)"
+    checks:
+      - "Looking for _snwprintf_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-saqo5r"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-saqo5r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__SNWPRINTF_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-saqo5r
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_62be8 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_62be8.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_62be8.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-saqo5r\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_62be8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_62be8.dir\\CheckSymbolExists.c.obj  /out:cmTC_62be8.exe /implib:cmTC_62be8.lib /pdb:cmTC_62be8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:103 (check_function_exists)"
+    checks:
+      - "Looking for _strdup"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-n7ilk7"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-n7ilk7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-n7ilk7
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e1489 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_strdup /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e1489.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_e1489.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-n7ilk7\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e1489.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e1489.dir\\CheckFunctionExists.c.obj  /out:cmTC_e1489.exe /implib:cmTC_e1489.lib /pdb:cmTC_e1489.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:104 (check_symbol_exists)"
+    checks:
+      - "Looking for _stricmp"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-t83t6d"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-t83t6d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__STRICMP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-t83t6d
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_02057 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_02057.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_02057.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-t83t6d\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_02057.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_02057.dir\\CheckSymbolExists.c.obj  /out:cmTC_02057.exe /implib:cmTC_02057.lib /pdb:cmTC_02057.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:105 (check_function_exists)"
+    checks:
+      - "Looking for _strtoi64"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-p73raa"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-p73raa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__STRTOI64"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-p73raa
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_d32c7 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_strtoi64 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d32c7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_d32c7.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-p73raa\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d32c7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d32c7.dir\\CheckFunctionExists.c.obj  /out:cmTC_d32c7.exe /implib:cmTC_d32c7.lib /pdb:cmTC_d32c7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:106 (check_function_exists)"
+    checks:
+      - "Looking for _strtoui64"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xo5sb6"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xo5sb6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__STRTOUI64"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xo5sb6
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_2f309 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_strtoui64 /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_2f309.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_2f309.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-xo5sb6\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2f309.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2f309.dir\\CheckFunctionExists.c.obj  /out:cmTC_2f309.exe /implib:cmTC_2f309.lib /pdb:cmTC_2f309.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:107 (check_function_exists)"
+    checks:
+      - "Looking for _unlink"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-s60aes"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-s60aes"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE__UNLINK"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-s60aes
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_51004 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=_unlink /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_51004.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_51004.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-s60aes\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_51004.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_51004.dir\\CheckFunctionExists.c.obj  /out:cmTC_51004.exe /implib:cmTC_51004.lib /pdb:cmTC_51004.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:108 (check_function_exists)"
+    checks:
+      - "Looking for arc4random"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ej2vem"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ej2vem"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_ARC4RANDOM"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ej2vem
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_acfe7 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=arc4random /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_acfe7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_acfe7.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ej2vem\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_acfe7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_acfe7.dir\\CheckFunctionExists.c.obj  /out:cmTC_acfe7.exe /implib:cmTC_acfe7.lib /pdb:cmTC_acfe7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_acfe7.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_acfe7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_acfe7.dir\\CheckFunctionExists.c.obj  /out:cmTC_acfe7.exe /implib:cmTC_acfe7.lib /pdb:cmTC_acfe7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_acfe7.dir\\CheckFunctionExists.c.obj /out:cmTC_acfe7.exe /implib:cmTC_acfe7.lib /pdb:cmTC_acfe7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_acfe7.dir/intermediate.manifest CMakeFiles\\cmTC_acfe7.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 arc4random，函数 main 中引用了该符号\x0d
+        cmTC_acfe7.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:109 (check_function_exists)"
+    checks:
+      - "Looking for clonefile"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-epq952"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-epq952"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_CLONEFILE"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-epq952
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_cb6b8 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=clonefile /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_cb6b8.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_cb6b8.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-epq952\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cb6b8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cb6b8.dir\\CheckFunctionExists.c.obj  /out:cmTC_cb6b8.exe /implib:cmTC_cb6b8.lib /pdb:cmTC_cb6b8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_cb6b8.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_cb6b8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cb6b8.dir\\CheckFunctionExists.c.obj  /out:cmTC_cb6b8.exe /implib:cmTC_cb6b8.lib /pdb:cmTC_cb6b8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cb6b8.dir\\CheckFunctionExists.c.obj /out:cmTC_cb6b8.exe /implib:cmTC_cb6b8.lib /pdb:cmTC_cb6b8.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_cb6b8.dir/intermediate.manifest CMakeFiles\\cmTC_cb6b8.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 clonefile，函数 main 中引用了该符号\x0d
+        cmTC_cb6b8.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:110 (check_function_exists)"
+    checks:
+      - "Looking for explicit_bzero"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-g6ts7g"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-g6ts7g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_EXPLICIT_BZERO"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-g6ts7g
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_299f1 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=explicit_bzero /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_299f1.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_299f1.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-g6ts7g\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_299f1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_299f1.dir\\CheckFunctionExists.c.obj  /out:cmTC_299f1.exe /implib:cmTC_299f1.lib /pdb:cmTC_299f1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_299f1.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_299f1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_299f1.dir\\CheckFunctionExists.c.obj  /out:cmTC_299f1.exe /implib:cmTC_299f1.lib /pdb:cmTC_299f1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_299f1.dir\\CheckFunctionExists.c.obj /out:cmTC_299f1.exe /implib:cmTC_299f1.lib /pdb:cmTC_299f1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_299f1.dir/intermediate.manifest CMakeFiles\\cmTC_299f1.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 explicit_bzero，函数 main 中引用了该符号\x0d
+        cmTC_299f1.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:111 (check_function_exists)"
+    checks:
+      - "Looking for explicit_memset"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-psfa33"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-psfa33"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_EXPLICIT_MEMSET"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-psfa33
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_f2307 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=explicit_memset /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f2307.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_f2307.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-psfa33\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f2307.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f2307.dir\\CheckFunctionExists.c.obj  /out:cmTC_f2307.exe /implib:cmTC_f2307.lib /pdb:cmTC_f2307.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_f2307.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f2307.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f2307.dir\\CheckFunctionExists.c.obj  /out:cmTC_f2307.exe /implib:cmTC_f2307.lib /pdb:cmTC_f2307.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f2307.dir\\CheckFunctionExists.c.obj /out:cmTC_f2307.exe /implib:cmTC_f2307.lib /pdb:cmTC_f2307.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_f2307.dir/intermediate.manifest CMakeFiles\\cmTC_f2307.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 explicit_memset，函数 main 中引用了该符号\x0d
+        cmTC_f2307.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:112 (check_function_exists)"
+    checks:
+      - "Looking for fchmod"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-km3opo"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-km3opo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_FCHMOD"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-km3opo
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_94189 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=fchmod /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_94189.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_94189.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-km3opo\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_94189.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94189.dir\\CheckFunctionExists.c.obj  /out:cmTC_94189.exe /implib:cmTC_94189.lib /pdb:cmTC_94189.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_94189.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_94189.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94189.dir\\CheckFunctionExists.c.obj  /out:cmTC_94189.exe /implib:cmTC_94189.lib /pdb:cmTC_94189.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_94189.dir\\CheckFunctionExists.c.obj /out:cmTC_94189.exe /implib:cmTC_94189.lib /pdb:cmTC_94189.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_94189.dir/intermediate.manifest CMakeFiles\\cmTC_94189.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 fchmod，函数 main 中引用了该符号\x0d
+        cmTC_94189.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:113 (check_function_exists)"
+    checks:
+      - "Looking for fileno"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-jfhc2s"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-jfhc2s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_FILENO"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-jfhc2s
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ea33d && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=fileno /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ea33d.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ea33d.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-jfhc2s\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ea33d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ea33d.dir\\CheckFunctionExists.c.obj  /out:cmTC_ea33d.exe /implib:cmTC_ea33d.lib /pdb:cmTC_ea33d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:114 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xji3se"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xji3se"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xji3se
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_07ffe && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=fseeko /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_07ffe.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_07ffe.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-xji3se\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_07ffe.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_07ffe.dir\\CheckFunctionExists.c.obj  /out:cmTC_07ffe.exe /implib:cmTC_07ffe.lib /pdb:cmTC_07ffe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_07ffe.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_07ffe.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_07ffe.dir\\CheckFunctionExists.c.obj  /out:cmTC_07ffe.exe /implib:cmTC_07ffe.lib /pdb:cmTC_07ffe.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_07ffe.dir\\CheckFunctionExists.c.obj /out:cmTC_07ffe.exe /implib:cmTC_07ffe.lib /pdb:cmTC_07ffe.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_07ffe.dir/intermediate.manifest CMakeFiles\\cmTC_07ffe.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 fseeko，函数 main 中引用了该符号\x0d
+        cmTC_07ffe.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:115 (check_function_exists)"
+    checks:
+      - "Looking for ftello"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-yofice"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-yofice"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_FTELLO"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-yofice
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_330c9 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=ftello /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_330c9.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_330c9.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-yofice\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_330c9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_330c9.dir\\CheckFunctionExists.c.obj  /out:cmTC_330c9.exe /implib:cmTC_330c9.lib /pdb:cmTC_330c9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_330c9.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_330c9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_330c9.dir\\CheckFunctionExists.c.obj  /out:cmTC_330c9.exe /implib:cmTC_330c9.lib /pdb:cmTC_330c9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_330c9.dir\\CheckFunctionExists.c.obj /out:cmTC_330c9.exe /implib:cmTC_330c9.lib /pdb:cmTC_330c9.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_330c9.dir/intermediate.manifest CMakeFiles\\cmTC_330c9.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 ftello，函数 main 中引用了该符号\x0d
+        cmTC_330c9.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:116 (check_function_exists)"
+    checks:
+      - "Looking for getprogname"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-3m2760"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-3m2760"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_GETPROGNAME"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-3m2760
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_8ac76 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=getprogname /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_8ac76.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_8ac76.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-3m2760\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8ac76.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8ac76.dir\\CheckFunctionExists.c.obj  /out:cmTC_8ac76.exe /implib:cmTC_8ac76.lib /pdb:cmTC_8ac76.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_8ac76.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8ac76.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8ac76.dir\\CheckFunctionExists.c.obj  /out:cmTC_8ac76.exe /implib:cmTC_8ac76.lib /pdb:cmTC_8ac76.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8ac76.dir\\CheckFunctionExists.c.obj /out:cmTC_8ac76.exe /implib:cmTC_8ac76.lib /pdb:cmTC_8ac76.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8ac76.dir/intermediate.manifest CMakeFiles\\cmTC_8ac76.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 getprogname，函数 main 中引用了该符号\x0d
+        cmTC_8ac76.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:117 (check_symbol_exists)"
+    checks:
+      - "Looking for localtime_r"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6264h2"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6264h2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_LOCALTIME_R"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6264h2
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_f1822 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f1822.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_f1822.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-6264h2\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_f1822.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f1822.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_f1822.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-6264h2\\CheckSymbolExists.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-6264h2\\CheckSymbolExists.c(8): error C2065: “localtime_r”: 未声明的标识符
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:118 (check_symbol_exists)"
+    checks:
+      - "Looking for localtime_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2x9hfq"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2x9hfq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_LOCALTIME_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2x9hfq
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ae5b7 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ae5b7.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_ae5b7.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-2x9hfq\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ae5b7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ae5b7.dir\\CheckSymbolExists.c.obj  /out:cmTC_ae5b7.exe /implib:cmTC_ae5b7.lib /pdb:cmTC_ae5b7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:119 (check_function_exists)"
+    checks:
+      - "Looking for memcpy_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2e2b6s"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2e2b6s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_MEMCPY_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-2e2b6s
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_044b4 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=memcpy_s /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_044b4.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_044b4.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-2e2b6s\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_044b4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_044b4.dir\\CheckFunctionExists.c.obj  /out:cmTC_044b4.exe /implib:cmTC_044b4.lib /pdb:cmTC_044b4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:120 (check_function_exists)"
+    checks:
+      - "Looking for random"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-gb7acy"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-gb7acy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_RANDOM"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-gb7acy
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_5a921 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=random /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5a921.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_5a921.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-gb7acy\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5a921.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a921.dir\\CheckFunctionExists.c.obj  /out:cmTC_5a921.exe /implib:cmTC_5a921.lib /pdb:cmTC_5a921.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_5a921.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5a921.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a921.dir\\CheckFunctionExists.c.obj  /out:cmTC_5a921.exe /implib:cmTC_5a921.lib /pdb:cmTC_5a921.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5a921.dir\\CheckFunctionExists.c.obj /out:cmTC_5a921.exe /implib:cmTC_5a921.lib /pdb:cmTC_5a921.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5a921.dir/intermediate.manifest CMakeFiles\\cmTC_5a921.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 random，函数 main 中引用了该符号\x0d
+        cmTC_5a921.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:121 (check_function_exists)"
+    checks:
+      - "Looking for setmode"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-w8kk7h"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-w8kk7h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SETMODE"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-w8kk7h
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_5fb79 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=setmode /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5fb79.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_5fb79.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-w8kk7h\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5fb79.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5fb79.dir\\CheckFunctionExists.c.obj  /out:cmTC_5fb79.exe /implib:cmTC_5fb79.lib /pdb:cmTC_5fb79.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:122 (check_symbol_exists)"
+    checks:
+      - "Looking for snprintf"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-l7ny1k"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-l7ny1k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-l7ny1k
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_23cbf && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_23cbf.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_23cbf.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-l7ny1k\\CheckSymbolExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_23cbf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_23cbf.dir\\CheckSymbolExists.c.obj  /out:cmTC_23cbf.exe /implib:cmTC_23cbf.lib /pdb:cmTC_23cbf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:123 (check_symbol_exists)"
+    checks:
+      - "Looking for snprintf_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iya3fx"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iya3fx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SNPRINTF_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iya3fx
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_a5d05 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a5d05.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_a5d05.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-iya3fx\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_a5d05.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a5d05.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_a5d05.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-iya3fx\\CheckSymbolExists.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-iya3fx\\CheckSymbolExists.c(8): error C2065: “snprintf_s”: 未声明的标识符
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:145 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckSymbolExists.cmake:71 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:124 (check_symbol_exists)"
+    checks:
+      - "Looking for strcasecmp"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pbs5kj"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pbs5kj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pbs5kj
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_607bf && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_607bf.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_607bf.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-pbs5kj\\CheckSymbolExists.c
+        FAILED: CMakeFiles/cmTC_607bf.dir/CheckSymbolExists.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_607bf.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_607bf.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-pbs5kj\\CheckSymbolExists.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-pbs5kj\\CheckSymbolExists.c(2): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:125 (check_function_exists)"
+    checks:
+      - "Looking for strdup"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-vwq7j5"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-vwq7j5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRDUP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-vwq7j5
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_66de5 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=strdup /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_66de5.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_66de5.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-vwq7j5\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_66de5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_66de5.dir\\CheckFunctionExists.c.obj  /out:cmTC_66de5.exe /implib:cmTC_66de5.lib /pdb:cmTC_66de5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:126 (check_function_exists)"
+    checks:
+      - "Looking for strerror_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wmuah0"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wmuah0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRERROR_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wmuah0
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_50df2 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=strerror_s /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_50df2.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_50df2.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-wmuah0\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_50df2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_50df2.dir\\CheckFunctionExists.c.obj  /out:cmTC_50df2.exe /implib:cmTC_50df2.lib /pdb:cmTC_50df2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:127 (check_function_exists)"
+    checks:
+      - "Looking for strerrorlen_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iekzcz"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iekzcz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRERRORLEN_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iekzcz
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ae0b1 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=strerrorlen_s /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ae0b1.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_ae0b1.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-iekzcz\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ae0b1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ae0b1.dir\\CheckFunctionExists.c.obj  /out:cmTC_ae0b1.exe /implib:cmTC_ae0b1.lib /pdb:cmTC_ae0b1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_ae0b1.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ae0b1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ae0b1.dir\\CheckFunctionExists.c.obj  /out:cmTC_ae0b1.exe /implib:cmTC_ae0b1.lib /pdb:cmTC_ae0b1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ae0b1.dir\\CheckFunctionExists.c.obj /out:cmTC_ae0b1.exe /implib:cmTC_ae0b1.lib /pdb:cmTC_ae0b1.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_ae0b1.dir/intermediate.manifest CMakeFiles\\cmTC_ae0b1.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 strerrorlen_s，函数 main 中引用了该符号\x0d
+        cmTC_ae0b1.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:128 (check_function_exists)"
+    checks:
+      - "Looking for stricmp"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-bkpqze"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-bkpqze"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRICMP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-bkpqze
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_5dde8 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=stricmp /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5dde8.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_5dde8.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-bkpqze\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5dde8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5dde8.dir\\CheckFunctionExists.c.obj  /out:cmTC_5dde8.exe /implib:cmTC_5dde8.lib /pdb:cmTC_5dde8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:129 (check_function_exists)"
+    checks:
+      - "Looking for strncpy_s"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v1ac7q"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v1ac7q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRNCPY_S"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-v1ac7q
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_b09ba && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=strncpy_s /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_b09ba.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_b09ba.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-v1ac7q\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b09ba.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b09ba.dir\\CheckFunctionExists.c.obj  /out:cmTC_b09ba.exe /implib:cmTC_b09ba.lib /pdb:cmTC_b09ba.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:130 (check_function_exists)"
+    checks:
+      - "Looking for strtoll"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-3xcq41"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-3xcq41"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRTOLL"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-3xcq41
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_f7ca0 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=strtoll /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f7ca0.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_f7ca0.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-3xcq41\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f7ca0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f7ca0.dir\\CheckFunctionExists.c.obj  /out:cmTC_f7ca0.exe /implib:cmTC_f7ca0.lib /pdb:cmTC_f7ca0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "CMakeLists.txt:131 (check_function_exists)"
+    checks:
+      - "Looking for strtoull"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-d4mycv"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-d4mycv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRTOULL"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-d4mycv
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c3d7d && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=strtoull /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c3d7d.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_c3d7d.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-d4mycv\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c3d7d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c3d7d.dir\\CheckFunctionExists.c.obj  /out:cmTC_c3d7d.exe /implib:cmTC_c3d7d.lib /pdb:cmTC_c3d7d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:133 (check_include_files)"
+    checks:
+      - "Looking for 3 include files sys/types.h, ..., fts.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-cxjg8z"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-cxjg8z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_FTS_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-cxjg8z
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_eb520 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eb520.dir\\HAVE_FTS_H.c.obj /FdCMakeFiles\\cmTC_eb520.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-cxjg8z\\HAVE_FTS_H.c
+        FAILED: CMakeFiles/cmTC_eb520.dir/HAVE_FTS_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eb520.dir\\HAVE_FTS_H.c.obj /FdCMakeFiles\\cmTC_eb520.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-cxjg8z\\HAVE_FTS_H.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-cxjg8z\\HAVE_FTS_H.c(4): fatal error C1083: 无法打开包括文件: “fts.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:152 (check_include_files)"
+    checks:
+      - "Looking for include file stdbool.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-lmzgcu"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-lmzgcu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-lmzgcu
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_0b6d0 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0b6d0.dir\\HAVE_STDBOOL_H.c.obj /FdCMakeFiles\\cmTC_0b6d0.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-lmzgcu\\HAVE_STDBOOL_H.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0b6d0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0b6d0.dir\\HAVE_STDBOOL_H.c.obj  /out:cmTC_0b6d0.exe /implib:cmTC_0b6d0.lib /pdb:cmTC_0b6d0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:153 (check_include_files)"
+    checks:
+      - "Looking for include file strings.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-54mwch"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-54mwch"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-54mwch
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_c7d70 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c7d70.dir\\HAVE_STRINGS_H.c.obj /FdCMakeFiles\\cmTC_c7d70.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-54mwch\\HAVE_STRINGS_H.c
+        FAILED: CMakeFiles/cmTC_c7d70.dir/HAVE_STRINGS_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c7d70.dir\\HAVE_STRINGS_H.c.obj /FdCMakeFiles\\cmTC_c7d70.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-54mwch\\HAVE_STRINGS_H.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-54mwch\\HAVE_STRINGS_H.c(2): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:154 (check_include_files)"
+    checks:
+      - "Looking for include file unistd.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-n7d120"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-n7d120"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_UNISTD_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-n7d120
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e1254 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e1254.dir\\HAVE_UNISTD_H.c.obj /FdCMakeFiles\\cmTC_e1254.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-n7d120\\HAVE_UNISTD_H.c
+        FAILED: CMakeFiles/cmTC_e1254.dir/HAVE_UNISTD_H.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e1254.dir\\HAVE_UNISTD_H.c.obj /FdCMakeFiles\\cmTC_e1254.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-n7d120\\HAVE_UNISTD_H.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-n7d120\\HAVE_UNISTD_H.c(2): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:156 (check_include_files)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-fzfdvd"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-fzfdvd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_INTTYPES_H_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-fzfdvd
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_69a32 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_69a32.dir\\HAVE_INTTYPES_H_LIBZIP.c.obj /FdCMakeFiles\\cmTC_69a32.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-fzfdvd\\HAVE_INTTYPES_H_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_69a32.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_69a32.dir\\HAVE_INTTYPES_H_LIBZIP.c.obj  /out:cmTC_69a32.exe /implib:cmTC_69a32.lib /pdb:cmTC_69a32.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:157 (check_include_files)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-05xerf"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-05xerf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-05xerf
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ae420 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ae420.dir\\HAVE_STDINT_H_LIBZIP.c.obj /FdCMakeFiles\\cmTC_ae420.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-05xerf\\HAVE_STDINT_H_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_ae420.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ae420.dir\\HAVE_STDINT_H_LIBZIP.c.obj  /out:cmTC_ae420.exe /implib:cmTC_ae420.lib /pdb:cmTC_ae420.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFiles.cmake:137 (try_compile)"
+      - "CMakeLists.txt:158 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pmum44"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pmum44"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pmum44
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4394c && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4394c.dir\\HAVE_SYS_TYPES_H_LIBZIP.c.obj /FdCMakeFiles\\cmTC_4394c.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-pmum44\\HAVE_SYS_TYPES_H_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4394c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4394c.dir\\HAVE_SYS_TYPES_H_LIBZIP.c.obj  /out:cmTC_4394c.exe /implib:cmTC_4394c.lib /pdb:cmTC_4394c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "CMakeLists.txt:164 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xt2b38"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xt2b38"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-xt2b38
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_e5bda && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_e5bda.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_e5bda.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-xt2b38\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e5bda.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e5bda.dir\\CheckIncludeFile.c.obj  /out:cmTC_e5bda.exe /implib:cmTC_e5bda.lib /pdb:cmTC_e5bda.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "CMakeLists.txt:164 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ntmtck"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ntmtck"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ntmtck
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_79cc0 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_79cc0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_79cc0.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ntmtck\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_79cc0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_79cc0.dir\\CheckIncludeFile.c.obj  /out:cmTC_79cc0.exe /implib:cmTC_79cc0.lib /pdb:cmTC_79cc0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:254 (check_include_file)"
+      - "CMakeLists.txt:164 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-9a6hlz"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-9a6hlz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-9a6hlz
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_eb3e8 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_eb3e8.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_eb3e8.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-9a6hlz\\CheckIncludeFile.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_eb3e8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eb3e8.dir\\CheckIncludeFile.c.obj  /out:cmTC_eb3e8.exe /implib:cmTC_eb3e8.lib /pdb:cmTC_eb3e8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:164 (check_type_size)"
+    checks:
+      - "Check size of __int8"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-0l1ebb"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-0l1ebb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE___INT8_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-0l1ebb
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_a089f && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_a089f.dir\\__INT8_LIBZIP.c.obj /FdCMakeFiles\\cmTC_a089f.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-0l1ebb\\__INT8_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a089f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a089f.dir\\__INT8_LIBZIP.c.obj  /out:cmTC_a089f.exe /implib:cmTC_a089f.lib /pdb:cmTC_a089f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:165 (check_type_size)"
+    checks:
+      - "Check size of int8_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6ot6py"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6ot6py"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_INT8_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-6ot6py
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_5bcfd && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_5bcfd.dir\\INT8_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_5bcfd.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-6ot6py\\INT8_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5bcfd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5bcfd.dir\\INT8_T_LIBZIP.c.obj  /out:cmTC_5bcfd.exe /implib:cmTC_5bcfd.lib /pdb:cmTC_5bcfd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:166 (check_type_size)"
+    checks:
+      - "Check size of uint8_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-4uyhqd"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-4uyhqd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_UINT8_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-4uyhqd
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_39e90 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_39e90.dir\\UINT8_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_39e90.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-4uyhqd\\UINT8_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_39e90.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_39e90.dir\\UINT8_T_LIBZIP.c.obj  /out:cmTC_39e90.exe /implib:cmTC_39e90.lib /pdb:cmTC_39e90.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:167 (check_type_size)"
+    checks:
+      - "Check size of __int16"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-kefv59"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-kefv59"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE___INT16_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-kefv59
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_0d4b3 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0d4b3.dir\\__INT16_LIBZIP.c.obj /FdCMakeFiles\\cmTC_0d4b3.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-kefv59\\__INT16_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0d4b3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0d4b3.dir\\__INT16_LIBZIP.c.obj  /out:cmTC_0d4b3.exe /implib:cmTC_0d4b3.lib /pdb:cmTC_0d4b3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:168 (check_type_size)"
+    checks:
+      - "Check size of int16_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-of26ou"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-of26ou"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_INT16_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-of26ou
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_6da0f && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_6da0f.dir\\INT16_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_6da0f.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-of26ou\\INT16_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_6da0f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6da0f.dir\\INT16_T_LIBZIP.c.obj  /out:cmTC_6da0f.exe /implib:cmTC_6da0f.lib /pdb:cmTC_6da0f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:169 (check_type_size)"
+    checks:
+      - "Check size of uint16_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iptcfe"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iptcfe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_UINT16_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-iptcfe
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_0b09e && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_0b09e.dir\\UINT16_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_0b09e.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-iptcfe\\UINT16_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_0b09e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0b09e.dir\\UINT16_T_LIBZIP.c.obj  /out:cmTC_0b09e.exe /implib:cmTC_0b09e.lib /pdb:cmTC_0b09e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:170 (check_type_size)"
+    checks:
+      - "Check size of __int32"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-tmkrx3"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-tmkrx3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE___INT32_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-tmkrx3
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_f45fd && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_f45fd.dir\\__INT32_LIBZIP.c.obj /FdCMakeFiles\\cmTC_f45fd.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-tmkrx3\\__INT32_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f45fd.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f45fd.dir\\__INT32_LIBZIP.c.obj  /out:cmTC_f45fd.exe /implib:cmTC_f45fd.lib /pdb:cmTC_f45fd.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:171 (check_type_size)"
+    checks:
+      - "Check size of int32_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-r1382c"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-r1382c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_INT32_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-r1382c
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_bcc4c && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bcc4c.dir\\INT32_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_bcc4c.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-r1382c\\INT32_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_bcc4c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bcc4c.dir\\INT32_T_LIBZIP.c.obj  /out:cmTC_bcc4c.exe /implib:cmTC_bcc4c.lib /pdb:cmTC_bcc4c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:172 (check_type_size)"
+    checks:
+      - "Check size of uint32_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-cojtqe"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-cojtqe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_UINT32_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-cojtqe
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_807e3 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_807e3.dir\\UINT32_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_807e3.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-cojtqe\\UINT32_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_807e3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_807e3.dir\\UINT32_T_LIBZIP.c.obj  /out:cmTC_807e3.exe /implib:cmTC_807e3.lib /pdb:cmTC_807e3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:173 (check_type_size)"
+    checks:
+      - "Check size of __int64"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-qoaeh8"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-qoaeh8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE___INT64_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-qoaeh8
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_3238f && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3238f.dir\\__INT64_LIBZIP.c.obj /FdCMakeFiles\\cmTC_3238f.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-qoaeh8\\__INT64_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3238f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3238f.dir\\__INT64_LIBZIP.c.obj  /out:cmTC_3238f.exe /implib:cmTC_3238f.lib /pdb:cmTC_3238f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:174 (check_type_size)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-744739"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-744739"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_INT64_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-744739
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_76169 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_76169.dir\\INT64_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_76169.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-744739\\INT64_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_76169.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_76169.dir\\INT64_T_LIBZIP.c.obj  /out:cmTC_76169.exe /implib:cmTC_76169.lib /pdb:cmTC_76169.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:175 (check_type_size)"
+    checks:
+      - "Check size of uint64_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ck72ph"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ck72ph"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_UINT64_T_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-ck72ph
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_281c7 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_281c7.dir\\UINT64_T_LIBZIP.c.obj /FdCMakeFiles\\cmTC_281c7.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-ck72ph\\UINT64_T_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_281c7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_281c7.dir\\UINT64_T_LIBZIP.c.obj  /out:cmTC_281c7.exe /implib:cmTC_281c7.lib /pdb:cmTC_281c7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:176 (check_type_size)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-9keszv"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-9keszv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SHORT_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-9keszv
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_61023 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_61023.dir\\SHORT_LIBZIP.c.obj /FdCMakeFiles\\cmTC_61023.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-9keszv\\SHORT_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_61023.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_61023.dir\\SHORT_LIBZIP.c.obj  /out:cmTC_61023.exe /implib:cmTC_61023.lib /pdb:cmTC_61023.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:177 (check_type_size)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wpevb2"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wpevb2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_INT_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wpevb2
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_7cdb6 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_7cdb6.dir\\INT_LIBZIP.c.obj /FdCMakeFiles\\cmTC_7cdb6.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-wpevb2\\INT_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7cdb6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_7cdb6.dir\\INT_LIBZIP.c.obj  /out:cmTC_7cdb6.exe /implib:cmTC_7cdb6.lib /pdb:cmTC_7cdb6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:178 (check_type_size)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-68wau4"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-68wau4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_LONG_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-68wau4
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_d070f && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_d070f.dir\\LONG_LIBZIP.c.obj /FdCMakeFiles\\cmTC_d070f.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-68wau4\\LONG_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d070f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d070f.dir\\LONG_LIBZIP.c.obj  /out:cmTC_d070f.exe /implib:cmTC_d070f.lib /pdb:cmTC_d070f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:179 (check_type_size)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-lxkriq"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-lxkriq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_LONG_LONG_LIBZIP"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-lxkriq
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_db5db && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_db5db.dir\\LONG_LONG_LIBZIP.c.obj /FdCMakeFiles\\cmTC_db5db.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-lxkriq\\LONG_LONG_LIBZIP.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_db5db.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_db5db.dir\\LONG_LONG_LIBZIP.c.obj  /out:cmTC_db5db.exe /implib:cmTC_db5db.lib /pdb:cmTC_db5db.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:180 (check_type_size)"
+    checks:
+      - "Check size of off_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-rg1lyh"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-rg1lyh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_OFF_T"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-rg1lyh
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_43308 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_43308.dir\\SIZEOF_OFF_T.c.obj /FdCMakeFiles\\cmTC_43308.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-rg1lyh\\SIZEOF_OFF_T.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_43308.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_43308.dir\\SIZEOF_OFF_T.c.obj  /out:cmTC_43308.exe /implib:cmTC_43308.lib /pdb:cmTC_43308.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:181 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-8bmf4o"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-8bmf4o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-8bmf4o
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_fb619 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_fb619.dir\\SIZEOF_SIZE_T.c.obj /FdCMakeFiles\\cmTC_fb619.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-8bmf4o\\SIZEOF_SIZE_T.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_fb619.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_fb619.dir\\SIZEOF_SIZE_T.c.obj  /out:cmTC_fb619.exe /implib:cmTC_fb619.lib /pdb:cmTC_fb619.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:183 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_FICLONERANGE"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wg8gcd"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wg8gcd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_FICLONERANGE"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-wg8gcd
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_ba1a4 && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_FICLONERANGE -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ba1a4.dir\\src.c.obj /FdCMakeFiles\\cmTC_ba1a4.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-wg8gcd\\src.c
+        FAILED: CMakeFiles/cmTC_ba1a4.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_FICLONERANGE -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_ba1a4.dir\\src.c.obj /FdCMakeFiles\\cmTC_ba1a4.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-wg8gcd\\src.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-wg8gcd\\src.c(1): fatal error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:187 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_NULLABLE"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-qplpy0"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-qplpy0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_NULLABLE"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-qplpy0
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4176b && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_NULLABLE -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4176b.dir\\src.c.obj /FdCMakeFiles\\cmTC_4176b.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-qplpy0\\src.c
+        FAILED: CMakeFiles/cmTC_4176b.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_NULLABLE -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4176b.dir\\src.c.obj /FdCMakeFiles\\cmTC_4176b.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-qplpy0\\src.c
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-qplpy0\\src.c(2): error C2146: 语法错误: 缺少“)”(在标识符“bar”的前面)
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-qplpy0\\src.c(2): error C2061: 语法错误: 标识符“bar”
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-qplpy0\\src.c(2): error C2059: 语法错误:“;”
+        D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-qplpy0\\src.c(2): error C2059: 语法错误:“)”
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.26/Modules/CheckFunctionExists.cmake:91 (try_compile)"
+      - "src/CMakeLists.txt:1 (check_function_exists)"
+    checks:
+      - "Looking for getopt"
+    directories:
+      source: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pzohy2"
+      binary: "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pzohy2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/C/libzip-1.10.1/libzip-1.10.1/cmake"
+    buildResult:
+      variable: "HAVE_GETOPT"
+      cached: true
+      stdout: |
+        Change Dir: D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release/CMakeFiles/CMakeScratch/TryCompile-pzohy2
+        
+        Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe -v cmTC_4a22b && [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\cl.exe  /nologo -D__STDC_WANT_LIB_EXT1__=1  /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=getopt /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_4a22b.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_4a22b.dir\\ /FS -c D:\\C\\libzip-1.10.1\\libzip-1.10.1\\out\\build\\x64-Release\\CMakeFiles\\CMakeScratch\\TryCompile-pzohy2\\CheckFunctionExists.c
+        [2/2] cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4a22b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4a22b.dir\\CheckFunctionExists.c.obj  /out:cmTC_4a22b.exe /implib:cmTC_4a22b.lib /pdb:cmTC_4a22b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_4a22b.exe 
+        cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4a22b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100220~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4a22b.dir\\CheckFunctionExists.c.obj  /out:cmTC_4a22b.exe /implib:cmTC_4a22b.lib /pdb:cmTC_4a22b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1436~1.325\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4a22b.dir\\CheckFunctionExists.c.obj /out:cmTC_4a22b.exe /implib:cmTC_4a22b.lib /pdb:cmTC_4a22b.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4a22b.dir/intermediate.manifest CMakeFiles\\cmTC_4a22b.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: 无法解析的外部符号 getopt，函数 main 中引用了该符号\x0d
+        cmTC_4a22b.exe : fatal error LNK1120: 1 个无法解析的外部命令\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

@@ -5,6 +5,7 @@ set(TEST_PROGRAMS
   can_clone_file
   fopen_unchanged
   fseek
+  fuzz_main
   nonrandomopentest
   liboverride-test
 )
@@ -37,10 +38,6 @@ endif(NOT HAVE_GETOPT)
 
 foreach(PROGRAM IN LISTS HOLE_USERS)
   target_sources(${PROGRAM} PRIVATE source_hole.c)
-endforeach()
-
-foreach(PROGRAM IN LISTS FUZZ_PROGRAMS)
-  target_sources(${PROGRAM} PRIVATE fuzz_main.c)
 endforeach()
 
 # for including ziptool.c
@@ -98,7 +95,6 @@ foreach(FULL_CASE IN LISTS EXTRA_TESTS)
 endforeach()
 
 set(XFAIL_TESTS
-#  zipcmp_zip_dir_slash.test
 )
 
 foreach(CASE ${XFAIL_TESTS})

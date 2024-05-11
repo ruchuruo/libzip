@@ -1,0 +1,239 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c1356a8ba521baab39da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib-Release-59c92de3fadba52dbb7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "man",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-man-Release-1978a2f28a382086fc60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "man",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-d70fade4c0143b8e6dbc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Release-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "libzip",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "add-compressed-data::@714eac15f71a94114fdf",
+					"jsonFile" : "target-add-compressed-data-Release-8f9c5016969cc9686e57.json",
+					"name" : "add-compressed-data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "autoclose-archive::@714eac15f71a94114fdf",
+					"jsonFile" : "target-autoclose-archive-Release-a62edfcfed9ce9534809.json",
+					"name" : "autoclose-archive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dist-Release-3fa6a7d3677122a2dced.json",
+					"name" : "dist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "distcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-distcheck-Release-d16529476dcd11995d0e.json",
+					"name" : "distcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "in-memory::@714eac15f71a94114fdf",
+					"jsonFile" : "target-in-memory-Release-68792f04913528fa252e.json",
+					"name" : "in-memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "man::@3ecd1443bf68424733ed",
+					"jsonFile" : "target-man-Release-25a8212c2df01b8b3103.json",
+					"name" : "man",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update-html::@3ecd1443bf68424733ed",
+					"jsonFile" : "target-update-html-Release-adb500cff66a98fd62a7.json",
+					"name" : "update-html",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update-man::@3ecd1443bf68424733ed",
+					"jsonFile" : "target-update-man-Release-a3bd41201cfbd67ad3e6.json",
+					"name" : "update-man",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_zip_errors::@3ecd1443bf68424733ed",
+					"jsonFile" : "target-update_zip_errors-Release-d4ef3e539f4d55429440.json",
+					"name" : "update_zip_errors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "zip::@306ed2d68c6501e8728f",
+					"jsonFile" : "target-zip-Release-5a5d9c9f0deabaa48053.json",
+					"name" : "zip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "zipcmp::@145eef247bfb46b6828c",
+					"jsonFile" : "target-zipcmp-Release-658f22a230f995e8e989.json",
+					"name" : "zipcmp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "zipmerge::@145eef247bfb46b6828c",
+					"jsonFile" : "target-zipmerge-Release-ea2136217535d08a1f8f.json",
+					"name" : "zipmerge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ziptool::@145eef247bfb46b6828c",
+					"jsonFile" : "target-ziptool-Release-101436165863ac313e27.json",
+					"name" : "ziptool",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C/libzip-1.10.1/libzip-1.10.1/out/build/x64-Release",
+		"source" : "D:/C/libzip-1.10.1/libzip-1.10.1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

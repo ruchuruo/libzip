@@ -43,10 +43,37 @@ zip_source_file(zip_t *za, const char *fname, zip_uint64_t start, zip_int64_t le
 }
 
 
+//ZIP_EXTERN zip_source_t *
+//zip_source_file_create(const char *fname, zip_uint64_t start, zip_int64_t length, zip_error_t *error) {
+//    int size;
+//    wchar_t *wfname;
+//    zip_source_t *source;
+//
+//    if (fname == NULL || length < ZIP_LENGTH_UNCHECKED) {
+//        zip_error_set(error, ZIP_ER_INVAL, 0);
+//        return NULL;
+//    }
+//
+//    /* Convert fname from UTF-8 to Windows-friendly UTF-16. */
+//    size = MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, fname, -1, NULL, 0);
+//    if (size == 0) {
+//        zip_error_set(error, ZIP_ER_INVAL, 0);
+//        return NULL;
+//    }
+//    if ((wfname = (wchar_t *)malloc(sizeof(wchar_t) * size)) == NULL) {
+//        zip_error_set(error, ZIP_ER_MEMORY, 0);
+//        return NULL;
+//    }
+//    MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, fname, -1, wfname, size);
+//
+//    source = zip_source_win32w_create(wfname, start, length, error);
+//
+//    free(wfname);
+//    return source;
+//}
+
 ZIP_EXTERN zip_source_t *
 zip_source_file_create(const char *fname, zip_uint64_t start, zip_int64_t length, zip_error_t *error) {
-    int size;
-    wchar_t *wfname;
     zip_source_t *source;
 
     if (fname == NULL || length < ZIP_LENGTH_UNCHECKED) {
@@ -54,20 +81,7 @@ zip_source_file_create(const char *fname, zip_uint64_t start, zip_int64_t length
         return NULL;
     }
 
-    /* Convert fname from UTF-8 to Windows-friendly UTF-16. */
-    size = MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, fname, -1, NULL, 0);
-    if (size == 0) {
-        zip_error_set(error, ZIP_ER_INVAL, 0);
-        return NULL;
-    }
-    if ((wfname = (wchar_t *)malloc(sizeof(wchar_t) * size)) == NULL) {
-        zip_error_set(error, ZIP_ER_MEMORY, 0);
-        return NULL;
-    }
-    MultiByteToWideChar(CP_UTF8, MB_ERR_INVALID_CHARS, fname, -1, wfname, size);
+    source = zip_source_win32a_create(fname, start, length, error);
 
-    source = zip_source_win32w_create(wfname, start, length, error);
-
-    free(wfname);
     return source;
 }

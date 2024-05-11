@@ -1,0 +1,2517 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"man/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/ZIP_SOURCE_GET_ARGS.3",
+					"to" : "ZIP_SOURCE_GET_ARGS.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/libzip.3",
+					"to" : "libzip.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_add.3",
+					"to" : "zip_add.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_add_dir.3",
+					"to" : "zip_add_dir.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_close.3",
+					"to" : "zip_close.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_compression_method_supported.3",
+					"to" : "zip_compression_method_supported.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_delete.3",
+					"to" : "zip_delete.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_dir_add.3",
+					"to" : "zip_dir_add.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_discard.3",
+					"to" : "zip_discard.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_encryption_method_supported.3",
+					"to" : "zip_encryption_method_supported.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_clear.3",
+					"to" : "zip_error_clear.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_code_system.3",
+					"to" : "zip_error_code_system.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_code_zip.3",
+					"to" : "zip_error_code_zip.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_fini.3",
+					"to" : "zip_error_fini.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_get.3",
+					"to" : "zip_error_get.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_get_sys_type.3",
+					"to" : "zip_error_get_sys_type.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_init.3",
+					"to" : "zip_error_init.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_set.3",
+					"to" : "zip_error_set.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_strerror.3",
+					"to" : "zip_error_strerror.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_system_type.3",
+					"to" : "zip_error_system_type.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_to_data.3",
+					"to" : "zip_error_to_data.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_to_str.3",
+					"to" : "zip_error_to_str.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_errors.3",
+					"to" : "zip_errors.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fclose.3",
+					"to" : "zip_fclose.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fdopen.3",
+					"to" : "zip_fdopen.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_add.3",
+					"to" : "zip_file_add.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_attributes_init.3",
+					"to" : "zip_file_attributes_init.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_extra_field_delete.3",
+					"to" : "zip_file_extra_field_delete.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_extra_field_get.3",
+					"to" : "zip_file_extra_field_get.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_extra_field_set.3",
+					"to" : "zip_file_extra_field_set.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_extra_fields_count.3",
+					"to" : "zip_file_extra_fields_count.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_get_comment.3",
+					"to" : "zip_file_get_comment.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_get_error.3",
+					"to" : "zip_file_get_error.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_get_external_attributes.3",
+					"to" : "zip_file_get_external_attributes.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_rename.3",
+					"to" : "zip_file_rename.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_set_comment.3",
+					"to" : "zip_file_set_comment.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_set_encryption.3",
+					"to" : "zip_file_set_encryption.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_set_external_attributes.3",
+					"to" : "zip_file_set_external_attributes.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_set_mtime.3",
+					"to" : "zip_file_set_mtime.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_strerror.3",
+					"to" : "zip_file_strerror.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fopen.3",
+					"to" : "zip_fopen.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fopen_encrypted.3",
+					"to" : "zip_fopen_encrypted.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fread.3",
+					"to" : "zip_fread.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fseek.3",
+					"to" : "zip_fseek.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_ftell.3",
+					"to" : "zip_ftell.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_get_archive_comment.3",
+					"to" : "zip_get_archive_comment.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_get_archive_flag.3",
+					"to" : "zip_get_archive_flag.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_get_error.3",
+					"to" : "zip_get_error.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_get_file_comment.3",
+					"to" : "zip_get_file_comment.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_get_name.3",
+					"to" : "zip_get_name.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_get_num_entries.3",
+					"to" : "zip_get_num_entries.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_get_num_files.3",
+					"to" : "zip_get_num_files.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_libzip_version.3",
+					"to" : "zip_libzip_version.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 54,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_name_locate.3",
+					"to" : "zip_name_locate.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 55,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_open.3",
+					"to" : "zip_open.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 56,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_register_cancel_callback_with_state.3",
+					"to" : "zip_register_cancel_callback_with_state.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 57,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_register_progress_callback.3",
+					"to" : "zip_register_progress_callback.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 58,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_register_progress_callback_with_state.3",
+					"to" : "zip_register_progress_callback_with_state.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 59,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_rename.3",
+					"to" : "zip_rename.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 60,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_set_archive_comment.3",
+					"to" : "zip_set_archive_comment.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 61,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_set_archive_flag.3",
+					"to" : "zip_set_archive_flag.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 62,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_set_default_password.3",
+					"to" : "zip_set_default_password.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 63,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_set_file_comment.3",
+					"to" : "zip_set_file_comment.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 64,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_set_file_compression.3",
+					"to" : "zip_set_file_compression.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 65,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source.3",
+					"to" : "zip_source.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 66,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_begin_write.3",
+					"to" : "zip_source_begin_write.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 67,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_buffer.3",
+					"to" : "zip_source_buffer.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 68,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_buffer_fragment.3",
+					"to" : "zip_source_buffer_fragment.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 69,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_close.3",
+					"to" : "zip_source_close.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 70,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_commit_write.3",
+					"to" : "zip_source_commit_write.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 71,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_error.3",
+					"to" : "zip_source_error.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 72,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_file.3",
+					"to" : "zip_source_file.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 73,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_filep.3",
+					"to" : "zip_source_filep.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 74,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_free.3",
+					"to" : "zip_source_free.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 75,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_function.3",
+					"to" : "zip_source_function.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 76,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_is_deleted.3",
+					"to" : "zip_source_is_deleted.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 77,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_is_seekable.3",
+					"to" : "zip_source_is_seekable.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 78,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_layered.3",
+					"to" : "zip_source_layered.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 79,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_keep.3",
+					"to" : "zip_source_keep.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 80,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_make_command_bitmap.3",
+					"to" : "zip_source_make_command_bitmap.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 81,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_open.3",
+					"to" : "zip_source_open.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 82,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_read.3",
+					"to" : "zip_source_read.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 83,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_rollback_write.3",
+					"to" : "zip_source_rollback_write.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 84,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_seek.3",
+					"to" : "zip_source_seek.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 85,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_seek_compute_offset.3",
+					"to" : "zip_source_seek_compute_offset.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 86,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_seek_write.3",
+					"to" : "zip_source_seek_write.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 87,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_stat.3",
+					"to" : "zip_source_stat.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 88,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_tell.3",
+					"to" : "zip_source_tell.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 89,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_tell_write.3",
+					"to" : "zip_source_tell_write.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 90,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_win32a.3",
+					"to" : "zip_source_win32a.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 91,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_win32handle.3",
+					"to" : "zip_source_win32handle.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 92,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_win32w.3",
+					"to" : "zip_source_win32w.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 93,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_window_create.3",
+					"to" : "zip_source_window_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 94,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_write.3",
+					"to" : "zip_source_write.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 95,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_zip.3",
+					"to" : "zip_source_zip.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 96,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_zip_file.3",
+					"to" : "zip_source_zip_file.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 97,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_stat.3",
+					"to" : "zip_stat.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 98,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_stat_init.3",
+					"to" : "zip_stat_init.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 99,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_unchange.3",
+					"to" : "zip_unchange.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 100,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_unchange_all.3",
+					"to" : "zip_unchange_all.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 101,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_unchange_archive.3",
+					"to" : "zip_unchange_archive.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 102,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zipcmp.1",
+					"to" : "zipcmp.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 103,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zipmerge.1",
+					"to" : "zipmerge.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 104,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/ziptool.1",
+					"to" : "ziptool.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 105,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_add.3",
+					"to" : "zip_replace.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 106,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_clear.3",
+					"to" : "zip_file_error_clear.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 107,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_get.3",
+					"to" : "zip_file_error_get.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 108,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_error_init.3",
+					"to" : "zip_error_init_with_code.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 109,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_add.3",
+					"to" : "zip_file_replace.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 110,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_extra_field_delete.3",
+					"to" : "zip_file_extra_field_delete_by_id.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 111,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_extra_field_get.3",
+					"to" : "zip_file_extra_field_get_by_id.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 112,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_extra_fields_count.3",
+					"to" : "zip_file_extra_fields_count_by_id.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 113,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_set_mtime.3",
+					"to" : "zip_file_set_dostime.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 114,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_file_strerror.3",
+					"to" : "zip_strerror.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 115,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fopen.3",
+					"to" : "zip_fopen_index.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 116,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fopen_encrypted.3",
+					"to" : "zip_fopen_index_encrypted.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 117,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_fseek.3",
+					"to" : "zip_file_is_seekable.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 118,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_open.3",
+					"to" : "zip_open_from_source.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 119,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_begin_write.3",
+					"to" : "zip_source_begin_write_cloning.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 120,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_buffer.3",
+					"to" : "zip_source_buffer_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 121,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_buffer_fragment.3",
+					"to" : "zip_source_buffer_fragment_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 122,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_file.3",
+					"to" : "zip_source_file_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 123,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_filep.3",
+					"to" : "zip_source_filep_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 124,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_function.3",
+					"to" : "zip_source_function_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 125,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_layered.3",
+					"to" : "zip_source_layered_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 126,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_win32a.3",
+					"to" : "zip_source_win32a_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 127,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_win32handle.3",
+					"to" : "zip_source_win32handle_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 128,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_win32w.3",
+					"to" : "zip_source_win32w_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 129,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_zip.3",
+					"to" : "zip_source_zip_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 130,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_source_zip_file.3",
+					"to" : "zip_source_zip_file_create.html"
+				}
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 131,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libzip/libzip",
+			"paths" : 
+			[
+				{
+					"from" : "out/build/x64-Release/man/zip_stat.3",
+					"to" : "zip_stat_index.html"
+				}
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "man",
+		"source" : "man"
+	}
+}

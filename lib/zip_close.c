@@ -44,7 +44,7 @@
 
 static int add_data(zip_t *, zip_source_t *, zip_dirent_t *, zip_uint32_t);
 static int copy_data(zip_t *, zip_uint64_t);
-static int copy_source(zip_t *, zip_source_t *, zip_source_t *, zip_int64_t);
+static int copy_source(zip_t *, zip_source_t *, zip_int64_t);
 static int torrentzip_compare_names(const void *a, const void *b);
 static int write_cdir(zip_t *, const zip_filelist_t *, zip_uint64_t);
 static int write_data_descriptor(zip_t *za, const zip_dirent_t *dirent, int is_zip64);
@@ -468,7 +468,11 @@ add_data(zip_t *za, zip_source_t *src, zip_dirent_t *de, zip_uint32_t changed) {
 
             /* PKWare encryption uses last_mod, make sure it gets the right value. */
             if (de->changed & ZIP_DIRENT_LAST_MOD) {
-                if ((src_tmp = _zip_source_window_new(src_final, 0, -1, NULL, 0, NULL, &de->last_mod, NULL, 0, true, &za->error)) == NULL) {
+                zip_stat_t st_mtime;
+                zip_stat_init(&st_mtime);
+                st_mtime.valid = ZIP_STAT_MTIME;
+                st_mtime.mtime = de->last_mod;
+                if ((src_tmp = _zip_source_window_new(src_final, 0, -1, &st_mtime, 0, NULL, NULL, 0, true, &za->error)) == NULL) {
                     zip_source_free(src_final);
                     return -1;
                 }
@@ -491,7 +495,7 @@ add_data(zip_t *za, zip_source_t *src, zip_dirent_t *de, zip_uint32_t changed) {
         return -1;
     }
 
-    ret = copy_source(za, src_final, src, data_length);
+    ret = copy_source(za, src_final, data_length);
 
     if (zip_source_stat(src_final, &st) < 0) {
         zip_error_set_from_source(&za->error, src_final);
@@ -525,23 +529,10 @@ add_data(zip_t *za, zip_source_t *src, zip_dirent_t *de, zip_uint32_t changed) {
     }
 
     if ((de->changed & ZIP_DIRENT_LAST_MOD) == 0) {
-        int ret2 = zip_source_get_dos_time(src, &de->last_mod);
-        if (ret2 < 0) {
-            zip_error_set_from_source(&za->error, src);
-            return -1;
-        }
-        if (ret2 == 0) {
-            time_t mtime;
-            if (st.valid & ZIP_STAT_MTIME) {
-                mtime = st.mtime;
-            }
-            else {
-                time(&mtime);
-            }
-            if (_zip_u2d_time(st.mtime, &de->last_mod, &za->error) < 0) {
-                return -1;
-            }
-        }
+        if (st.valid & ZIP_STAT_MTIME)
+            de->last_mod = st.mtime;
+        else
+            time(&de->last_mod);
     }
     de->comp_method = st.comp_method;
     de->crc = st.crc;
@@ -614,7 +605,7 @@ copy_data(zip_t *za, zip_uint64_t len) {
 
 
 static int
-copy_source(zip_t *za, zip_source_t *src, zip_source_t *src_for_length, zip_int64_t data_length) {
+copy_source(zip_t *za, zip_source_t *src, zip_int64_t data_length) {
     DEFINE_BYTE_ARRAY(buf, BUFSIZE);
     zip_int64_t n, current;
     int ret;
@@ -637,13 +628,7 @@ copy_source(zip_t *za, zip_source_t *src, zip_source_t *src_for_length, zip_int6
             break;
         }
         if (n == BUFSIZE && za->progress && data_length > 0) {
-            zip_int64_t t;
-            t = zip_source_tell(src_for_length);
-            if (t >= 0) {
-                current = t;
-            } else {
-                current += n;
-            }
+            current += n;
             if (_zip_progress_update(za->progress, (double)current / (double)data_length) != 0) {
                 zip_error_set(&za->error, ZIP_ER_CANCELLED, 0);
                 ret = -1;
